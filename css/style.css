@@ -10,6 +10,12 @@ h2{
     text-align: center;
     height: 300px !important;
 }
-.carousel{
-    margin-top: 20px;
+.carousel2{
+	margin: 20px 0;
 }
+.control-buttons{
+	text-align:center;
+}
+.examplecarusel{
+	margin: 20px;
+} 
