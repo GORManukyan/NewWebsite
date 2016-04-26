@@ -1,74 +1,105 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>New Website</title>
-      <link rel="stylesheet" href="css/bootstrap-theme.css">
-      <link rel="stylesheet" href="css/bootstrap-theme.min.css" >
-      <link rel="stylesheet" href="css/bootstrap.css">
-      <link rel="stylesheet" href="css/bootstrap.min.css">
-      <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-    
 
-      
-   <nav role="navigation" class="navbar navbar-default">
-       <div class="navbar-header">
-           <a href="#" class="navbar-brand">WebSite</a>
+<head>
+
+    <meta charset="utf-8">
+    <title>Site</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/grayscale.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <i class="fa fa-play-circle"></i>  <span class="light">Start</span> Bootstrap
+                </a>
+            </div>
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#download">Download</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
+    </nav>
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">Business</h1>
+                        <p class="intro-text">Вам нужно более 1 рекламного аккаунта
+                            <br>Создавайте отдельные рекламные аккаунты для каждого клиента или компании, которых вы обслуживаете
+Оплачивайте рекламу разными способами
+Организуйте и группируйте объекты по целям или для отчетности.</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+ 
+    <section id="download" class="content-section text-center">
+        <div class="download-section">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>What is Lorem Ipsum?</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
   
-  <div id="navbarCollapse" class="collapse navbar-collapse">
-    <ul class="nav navbar-nav">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Gallery</a></li>
-      <li><a href="#">News</a></li>
-      <li><a href="#">about</a></li>
-    </ul>
-    <form role="search" class="navbar-form navbar-left">
-      <div class="form-group">
-        <input type="text" placeholder="Search" class="form-control">
-      </div>
-    </form>
-      
-    <ul class="nav navbar-nav navbar-right">
-      <li><a href="#">Войти</a></li>
-    </ul>
-  </div>
-</nav>
-      
-      
-      
-      
-      
-<div id="myCarousel" class="carousel">
-      <ol class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1"></li>
-          <li data-target="#myCarousel" data-slide-to="2"></li>
-          <li data-target="#myCarousel" data-slide-to="3"></li>
-      </ol>
-    
-    <div class="carousel-inner">
-    
-        <div class="item" active>
-            <img src="image/audit.jpg" alt="" class="img-responsive">
+    <section id="contact" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Contact </h2>
+                <p>What is Lorem Ipsum?
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum!</p>
+               
+                <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="https://Youtube.com" class="btn btn-default btn-lg">YouTUBE</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com" class="btn btn-default btn-lg">Github</a>
+                    </li>
+                    <li>
+                        <a href="https://plus.google.com" class="btn btn-default btn-lg"> Google+</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        
-        <div class="item">
-            <img src="image/computer-1149148_960_720.jpg" alt="" class="img-responsive">
+    </section>
+
+   <script src="js/map.js"></script>
+    <div id="map"></div>
+
+   
+    <footer>
+        <div class="container text-center">
+            <p>Copyright &copy; Your Website 2016</p>
         </div>
-        
-        <div class="item">
-            <img src="image/Las-Vegas-Business-Plan.jpg" alt="" class="img-responsive">
-        </div>
-        
-        <div class="item">
-            <img src="image/loan.jpg" alt="" class="img-responsive">
-        </div>
-        
-    </div>
-      </div>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-      <script src="Js/bootstrap.js"></script>
-  </body>
+    </footer>
+
+</body>
 </html>
